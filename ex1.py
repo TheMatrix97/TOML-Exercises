@@ -7,11 +7,11 @@ def objective(x):
     return np.exp(x[0]) * (4 * pow(x[0], 2) + 2 * pow(x[1], 2) + 4 * x[0] * x[1] +
                            2 * x[1] + 1)
 
-def objective_der(x):
+def objective_der(x): #TODO REVISAR!
     # Objective function
     der = np.zeros_like(x)
     der[0] = np.exp(x[0])*(8*x[0] + 2*pow(x[1], 2) + 4*x[1] + 2*x[1])
-    der[1] = np.exp(x[0]) * (4*pow(x[0], 2) + 4*x[0] + 2)
+    der[1] = np.exp(x[0]) * (4*pow(x[0], 2) + 4*x[1] + 4*x[0] + 2)
     return der
     #ERROR! derivada en base x[0] y x[1]!
 
