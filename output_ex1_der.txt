@@ -1,0 +1,72 @@
+X0 -> [0 0]
+Positive directional derivative for linesearch    (Exit mode 8)
+            Current function value: 0.9029548944331462
+            Iterations: 34
+            Function evaluations: 294
+            Gradient evaluations: 30
+     fun: 0.9029548944331462
+     jac: array([ 7.22422445, 22.57664733])
+ message: 'Positive directional derivative for linesearch'
+    nfev: 294
+     nit: 34
+    njev: 30
+  status: 8
+ success: False
+       x: array([ 0.91664146, -1.33334956])
+---------------------------------
+
+X0 -> [10 20]
+C:/Users/Roger/Documents/marc/TOML/exercises/ex1.py:7: RuntimeWarning: overflow encountered in exp
+  return np.exp(x[0]) * (4 * pow(x[0], 2) + 2 * pow(x[1], 2) + 4 * x[0] * x[1] +
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.8226715285482822
+            Iterations: 77
+            Function evaluations: 517
+            Gradient evaluations: 73
+     fun: 0.8226715285482822
+     jac: array([-0.23164235,  0.90796847])
+ message: 'Optimization terminated successfully'
+    nfev: 517
+     nit: 77
+    njev: 73
+  status: 0
+ success: True
+       x: array([-4.01940864,  1.94674933])
+---------------------------------
+
+X0 -> [-10   1]
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.058500435732685874
+            Iterations: 36
+            Function evaluations: 327
+            Gradient evaluations: 36
+     fun: 0.058500435732685874
+     jac: array([-0.01355886,  0.05906715])
+ message: 'Optimization terminated successfully'
+    nfev: 327
+     nit: 36
+    njev: 36
+  status: 0
+ success: True
+       x: array([-8.33719987,  1.19913597])
+---------------------------------
+
+X0 -> [-30 -30]
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.16575924743871426
+            Iterations: 11
+            Function evaluations: 37
+            Gradient evaluations: 11
+     fun: 0.16575924743871426
+     jac: array([-0.04624952,  0.16413557])
+ message: 'Optimization terminated successfully'
+    nfev: 37
+     nit: 11
+    njev: 11
+  status: 0
+ success: True
+       x: array([-6.91745085,  1.06315164])
+---------------------------------
+
+
+Process finished with exit code 0
