@@ -1,0 +1,67 @@
+X0 -> [0 0]
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.02355037962417486
+            Iterations: 18
+            Function evaluations: 56
+            Gradient evaluations: 18
+     fun: 0.02355037962417486
+     jac: array([ 0.01839703, -0.00228436])
+ message: 'Optimization terminated successfully'
+    nfev: 56
+     nit: 18
+    njev: 18
+  status: 0
+ success: True
+       x: array([-9.54740503,  1.04740503])
+---------------------------------
+
+X0 -> [10 20]
+Inequality constraints incompatible    (Exit mode 4)
+            Current function value: 44956016.68720051
+            Iterations: 1
+            Function evaluations: 3
+            Gradient evaluations: 1
+     fun: 44956016.68720051
+     jac: array([48480251.5,  2687229. ])
+ message: 'Inequality constraints incompatible'
+    nfev: 3
+     nit: 1
+    njev: 1
+  status: 4
+ success: False
+       x: array([10., 20.])
+---------------------------------
+
+X0 -> [-10   1]
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.0235503796241749
+            Iterations: 4
+            Function evaluations: 12
+            Gradient evaluations: 4
+     fun: 0.0235503796241749
+     jac: array([ 0.01839703, -0.00228436])
+ message: 'Optimization terminated successfully'
+    nfev: 12
+     nit: 4
+    njev: 4
+  status: 0
+ success: True
+       x: array([-9.54740503,  1.04740503])
+---------------------------------
+
+X0 -> [-30 -30]
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 0.02355037962417503
+            Iterations: 14
+            Function evaluations: 43
+            Gradient evaluations: 14
+     fun: 0.02355037962417503
+     jac: array([ 0.01839703, -0.00228436])
+ message: 'Optimization terminated successfully'
+    nfev: 43
+     nit: 14
+    njev: 14
+  status: 0
+ success: True
+       x: array([-9.54740503,  1.04740503])
+---------------------------------
