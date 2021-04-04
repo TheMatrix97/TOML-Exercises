@@ -11,6 +11,7 @@ def main_a():
     x0 = 3
     n = 1
     stop_criterion = 10 ** -4
+    #Backtrack Line Search
     while (f(x0 + t * (-fdx(x0))) > stop_criterion):
         t = beta * t
         n += 1

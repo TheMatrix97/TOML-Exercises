@@ -53,17 +53,18 @@ def solve_cvxpy():
     print("status:", prob.status)
     print("optimal value p* = ", prob.value)
     print("optimal var: x1 = ", x[0].value, " x2 = ", x[1].value)
-    print("optimal dual variables lanbda1 = ", constraints[0].dual_value)
-    print("optimal dual variables lanbda2 = ", constraints[1].dual_value)
+    print("optimal dual variables lambda1 = ", constraints[0].dual_value)
+    print("optimal dual variables lambda2 = ", constraints[1].dual_value)
 
 
 
 def main():
     # Initial points x0
-    x0_points = [[0, 1], [6, 10]]
+    print("----------Scipy-------------")
+    x0_points = [[6, 10]]
     for point in x0_points:
         print("X0 -> " + str(np.array(point)))
-        res = run_minimize_jacob(np.array(point))
+        res = run_minimize(np.array(point))
         print(res)
         print("---------------------------------\n")
     #CVXPY
